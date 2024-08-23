@@ -7,6 +7,15 @@ export default defineConfig({
   plugins: [react(), sentryVitePlugin({
     org: "amazon-x9",
     project: "javascript-nextjs"
+  }), sentryVitePlugin({
+    org: "amazon-x9",
+    project: "javascript-react"
+  }), sentryVitePlugin({
+    org: "amazon-x9",
+    project: "javascript-react"
+  }), sentryVitePlugin({
+    org: "amazon-x9",
+    project: "apple"
   })],
 
   build: {
